@@ -1,0 +1,11 @@
+[package]
+name = "vnictl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+libc = "0.2.167"
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+serde = { version = "1.0.215", features = ["derive"] }
+toml = "0.8.19"
